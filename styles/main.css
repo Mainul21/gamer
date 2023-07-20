@@ -1,0 +1,207 @@
+nav{
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+nav > div {
+    display: flex;
+    justify-content: space-between;
+}
+.main-icon{
+    display: flex;
+    font-size: larger;
+}
+.icon-image{
+    padding-top: 12px;
+}
+.main-pages{
+    display: flex;
+    justify-content: space-around;
+    gap: 10px;
+    font-size: large;
+}
+
+nav li{
+    list-style: none;
+}
+
+span{
+    color: palevioletred;
+}
+
+nav a{
+    text-decoration: none;
+}
+
+nav button{
+    background-color: lightgray;
+    border-radius: 5px;
+    height: 20xp;
+    width: 100px;
+    border: 0px none;
+}
+
+.banner{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: antiquewhite;
+}
+.banner li{
+    list-style: none;
+}
+
+.banner-content{
+    text-align: center;
+    justify-content: center;
+}
+.banner-greeting{
+    font-size: 40px;
+    margin-bottom: 0px;
+}
+
+.banner-title{
+    font-size: 95px;
+    color: rgb(144, 51, 232);
+    margin-top: 0px;
+    margin-bottom: 5px;
+}
+.banner-des{
+    justify-content: center;
+    align-items: center;
+    text-align: left;
+    font-size: 20px;
+    margin-top: 5px;
+    
+}
+
+.banner-btn{
+    display: inline-flex;
+    padding: 21px 40px;
+    margin-top: 20px;
+    justify-content: space-around;
+    gap: 10px;
+}
+.banner-collage img{
+    height: 400px;
+    width: 400px;
+    margin-left: 0px;
+    margin-right: 0px;
+}
+
+
+.banner-btn button{
+    border-radius: 50px;
+    border: 0px none;
+    height: 20px;
+}
+
+.banner-btn1{
+    width: 60px;
+    background-color: blueviolet;
+}
+.banner-btn2{
+    height: 20px;
+    width: 100px;
+    background-color: aqua;
+}
+
+.game-banner{
+    justify-content: center;
+    text-align: center;
+    background-color: antiquewhite;
+    padding-top:20px ;
+}
+.game-banner li{
+    list-style: none;
+}
+
+.game-slides{
+    display: flex;
+    justify-content: space-around;
+}
+
+.game-slides img{
+    height: 200px;
+    width: 200px;
+}
+
+.instant-banner{
+    display: flex;
+    justify-content: space-between;
+}
+
+.instant-banner-content{
+    justify-content: center;
+    padding-left:200px ;
+    padding-top: 100px;
+}
+
+.instant-banner-title{
+    font-size: 48px;
+    font-weight: 700;
+    text-align: center
+}
+.instant-banner-des{
+    color: gray;
+    text-align: end;
+}
+
+.instant-banner-image{
+    justify-content: center;
+}
+.instant-img1{
+    height: 400px;
+    width: 400px;
+    padding-right: 50px;
+    padding-top: 50px;
+}
+
+.instant-img2{
+    height: 200px;
+    width: 200px;
+}
+.games button{
+ border: 0 none;
+ border-radius: 50px;
+ margin-top: 100px;
+ margin-left: 100px;
+ margin-right: 100px;
+ text-align: center;
+ /* display: flex; */
+ align-items: center;
+ justify-content: center;
+ padding-left: 10px;
+ padding-right: 10px;
+ gap: 5px;
+ flex-direction: row;
+}
+footer{
+    background-color: rgb(1, 1, 50);
+    text-align: center;
+}
+.footer-logo{
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    display: flex;
+    margin-top: 20px;
+    padding: 20px;
+}
+.title{
+    padding-top: 12px;
+    color:white
+}
+
+.footer-pages a{
+    text-decoration: none;
+    color: white;
+    justify-content: space-around;
+    padding: 20px;
+}
+
+.copyright{
+    color: white;
+    padding-top: 20px;
+    padding-bottom: 50px;
+}
